@@ -36,7 +36,6 @@ class Sensor
 		$parte = explode("|", $receberValor);
 
 		return $temperatura = $parte[1];
-		$varClimatica = $parte[2];
 	}
 	public function getVarClimatica()
 	{
